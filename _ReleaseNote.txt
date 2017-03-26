@@ -1,0 +1,371 @@
+Firmware Tracking Log -------- Firmware
+Mlink Technology Confidential
+
+*********************************************************************************************
+* Chips Supported: D-Coder                                                                  *
+*                                                                                           *
+*===========================================================================================*
+F/W Version:
+Date:
+Project:
+Issue #:
+Modified by:
+Files Modified:
+Description:
+
+********************************************************************************
+********   You must update this file before you check in the new code   ********
+********                                                                ********
+********************************************************************************
+F/W Version:  F022.1
+Date:         2016/11/14
+Project:        
+Issue #:
+Modified by:  LW
+Description:	
+	1. update multiturn spi driver,
+	2. update multiturn test routing.
+     
+// ============================================================ 
+F/W Version:  F022.0
+Date:         2016/11/14
+Project:        
+Issue #:
+Modified by:  LW
+Description:	
+	1. merge version from yingdong gaoke
+	2. update biss interface driver
+     
+// ============================================================  
+F/W Version:  F020.8
+Date:         2016/05/03
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+	1. Support linear
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+F/W Version:  F020.7
+Date:         2016/04/06
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+	1. Support multiTurn
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+F/W Version:  F020.6
+Date:         2016/04/06
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+	1. BAT601 version
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F015.4
+Date:         2015/08/20
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+	1. Minor change for Matlab Auto Harmanic compensition
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+
+F/W Version:  F015.3
+Date:         2015/08/20
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+	1. Matlab Auto Harmanic compensition support. (FEEDBACK_TEST=1)
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+
+F/W Version:  F015.2
+Date:         2015/08/20
+Project:        
+Issue #:
+Modified by:  LW
+Description:	
+	1. 优化hostif接口，增加TTL测试。
+	2. 修改hostif测试命令码。
+	3. 修改中断处理过程，取消每个中断各自的中断寄存器组，使用公共寄存器。
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F015.1
+Date:         2015/08/19
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+1. added ABS_Calculate_GMR
+2. fixed dump pointer problem
+3. minor fix linear init
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F014.2
+Date:         2015/07/17
+Project:        
+Issue #:
+Modified by:  LW
+Description:	
+1. add hostif func.
+                                  
+Files Modified:
+	_ReleaseNote.txt
+	D-coder_firmware.uvopt
+	D-coder_firmware.uvproj
+	output/D-coder_firmware.hex
+	output/D-coder_firmware.map
+	src/cfg_sys.h
+	src/globvar.h
+	src/isr.c
+	src/main.c
+	src/sysreg.h
+	src/timer.c
+	src/timer.h
+	src/uart.c
+	src/uart_ui.c
+
+Files Added:
+	src/hostif.c
+	src/hostif.h
+// ============================================================
+F/W Version:  F014.1
+Date:         2015/07/10
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+1. Opimized ABS_Calculate_Rotary
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F014
+Date:         2015/07/10
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+1. Add Regsiter Read/Write command cmd:13,14,15,16
+2. Fix memory overwrite problem
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F013
+Date:         2015/07/09
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+1. Merged sysreg.h from LW's code 
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:  F012
+Date:         2015/07/09
+Project:        
+Issue #:
+Modified by:  LYC
+Description:	
+1. Add Linear ABS code
+2. Modified Cordic to 20bit
+3. use ROM code DMA
+4. fixed DMA dump 4 byte align problem
+5. spiBoot function 
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+
+F/W Version:	F011
+Date:			2015/06/12
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Add TIMER2 code
+2. Update interrupt enteries address (.a51)
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+F/W Version:	F010
+Date:			2015/06/10
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Set Rotary index, quad
+2. Cont display degree command
+3. first release to Du.
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+F/W Version:	F009
+Date:			2015/06/7
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Linear ABS debugging
+                                  
+Files Modified:
+Files Added:
+
+// ============================================================
+F/W Version:	F008
+Date:			2015/06/7
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Rotary ABS process, tested with FPGA 0607
+                                  
+Files Modified:
+Files Added: cfh_hw.h
+
+// ============================================================
+F/W Version:	F007
+Date:			2015/06/3
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. define Product config
+2. Rotary Coarse/Fine calculate	
+                                  
+Files Modified:
+Files Added: prodcfg.h
+
+// ============================================================
+
+
+F/W Version:	F006
+Date:			2015/06/1
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Setup WaveGen
+2. set_Product 	
+                                  
+Files Modified:
+Files Added: dcode_tab_master.h dcode_tab_sincos.h
+
+// ============================================================
+F/W Version:	F005
+Date:			2015/05/25
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. CMD_DUMP, CMD_DISP_CONT 	
+                                  
+Files Modified:	dcode.c, dcode.h
+
+Files Added:
+
+// ============================================================
+F/W Version:	F004
+Date:			2015/05/20
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Add spi Flash code	
+                                  
+Files Modified:	
+
+Files Added:
+
+// ============================================================
+
+F/W Version:	F003
+Date:			2015/05/05
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Framework, memory allocate	
+                                  
+Files Modified:	
+
+Files Added:
+
+// ============================================================
+
+F/W Version:	F002
+Date:			2015/04/20
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Add some Macros for UART, Timer and Interrupt
+2. Delay func using ext timer	
+                                  
+Files Modified:	
+
+Files Added:   
+// ============================================================
+
+F/W Version:	F001
+Date:			2015/04/19
+Project:        
+Issue #:
+Modified by:	LYC
+Description:	
+1. Inititial version
+2. Interrupt framework	
+                                  
+Files Modified:	
+
+Files Added:    
+
+  
+
+
+
+
